@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks Sorter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Student Marks Sorting (Bubble Sort)</h1>
+
+    <div class="container">
+        <textarea id="inputData" placeholder="Enter name and marks like:
+Ravi 85
+Meena 92
+Arjun 78"></textarea>
+
+        <select id="order">
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+        </select>
+
+        <button onclick="sortStudents()">Sort</button>
+
+        <h2>Sorted Output</h2>
+        <pre id="output"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
